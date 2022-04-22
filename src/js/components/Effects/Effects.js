@@ -5,8 +5,8 @@ import BorderRadius from './BorderRadius';
 import messages from '../../helpers/randomMessages';
 
 const Effects = () => {
-  const [shadows] = useGlobal('boxShadow');
-  const [borderRadii] = useGlobal('borderRadius');
+  const [shadows] = useGlobal('shadows');
+  const [borderRadii] = useGlobal('radii');
   const hasShadows = Object.keys(shadows).length > 0;
   const hasBorderRadii = Object.keys(borderRadii).length > 0;
 

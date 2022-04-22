@@ -57,7 +57,7 @@ export function groupColors(colors) {
 export function cleanupTheme(theme) {
   const cleanTheme = {};
   // Specify what keys to output in theme
-  const allowedKeys = ['colors','fontFamily','fontSize','boxShadow', 'borderRadius'];
+  const allowedKeys = ['colors','fonts','fontSize','shadows', 'radii'];
   const [grouped] = useGlobal('groupColor');
   Object.entries(theme).forEach(([key, values]) => {
     // Check to remove simple global state items

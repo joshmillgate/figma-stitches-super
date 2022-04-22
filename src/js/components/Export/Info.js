@@ -28,35 +28,6 @@ const Info = () => {
           </p>
         </div>
       </div>
-      <div className="col mt-8">
-        <div className="richtext">
-          <p>
-            Import the <code>theme.js</code> file in to your{' '}
-            <code>tailwind.config.js</code>
-            configuration file to use it:
-          </p>
-          <pre>
-            <code>import theme from {theme};</code>
-          </pre>
-          <h3 className="t-gamma">Overriding the default theme</h3>
-          <p>
-            To override an option in the default theme, create a theme section
-            in your config and add the key you would like to override.
-          </p>
-          <pre>
-            <code>{overWrite}</code>
-          </pre>
-          <h3 className="t-gamma">Add to current values</h3>
-          <p>
-            Using the spread operator at the end of each property you can add
-            your theme values to an existing config or to the default tailwind
-            config.
-          </p>
-          <pre>
-            <code>{extend}</code>
-          </pre>
-        </div>
-      </div>
       <div className="col flex justify-between mt-8">
         <Link to="/export" className="button button--green">
           Previous

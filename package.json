@@ -19,6 +19,7 @@
   "homepage": "https://github.com/jan-dh/figma-tailwindcss#readme",
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
+    "clipboard": "^2.0.10",
     "core-js": "^3.8.1",
     "dotenv": "^7.0.0",
     "file-saver": "^2.0.5",

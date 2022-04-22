@@ -35,7 +35,7 @@ const dummyTheme = {
     { name: '', value: '48' },
     { name: '', value: '64' }
   ],
-  fontFamily: [
+  fonts: [
     {
       name: 'source-sans-pro',
       value: 'source sans pro'

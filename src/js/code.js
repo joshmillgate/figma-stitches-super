@@ -9,9 +9,9 @@ const theme = {
   colors: [],
   gradientColors:[],
   fontSize: [],
-  fontFamily: [],
-  boxShadow: [],
-  borderRadius: [],
+  fonts: [],
+  shadows: [],
+  radii: [],
   baseFontSize: false,
   groupColor: false
 };
@@ -26,9 +26,9 @@ const {finalRadii} = getNodeStyles();
 theme.colors.push(...colors);
 theme.gradientColors.push(...gradientColors);
 theme.fontSize.push(...finalSizes);
-theme.fontFamily.push(...finalFamilies);
-theme.boxShadow.push(...shadows);
-theme.borderRadius.push(...finalRadii);
+theme.fonts.push(...finalFamilies);
+theme.shadows.push(...shadows);
+theme.radii.push(...finalRadii);
 
 // options
 const options = {

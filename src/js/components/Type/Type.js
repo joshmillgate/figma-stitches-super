@@ -6,7 +6,7 @@ import messages from '../../helpers/randomMessages';
 
 const Type = () => {
   const [fontSizes] = useGlobal('fontSize');
-  const [fontFamilies] = useGlobal('fontFamily');
+  const [fontFamilies] = useGlobal('fonts');
   const [baseFontSize] = useGlobal('baseFontSize');
   const hasFamilies = Object.keys(fontFamilies).length > 0;
   const hasSizes = Object.keys(fontSizes).length > 0;
