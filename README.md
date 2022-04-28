@@ -1,5 +1,7 @@
 # Figma Stitches
 
+https://www.figma.com/community/plugin/1100032149303157177/Figma-To-Stitches
+
 A plugin that tries to bridge the gap between design and code. Figma Tailwindcss lets you export aspects of a design made in Figma to a javascript `theme` file that can easily be used with Tailwindcss.
 
 ---
